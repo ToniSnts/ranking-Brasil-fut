@@ -3,4 +3,7 @@ export type Player = {
     name: string;
     age: number;
     nationality: string;
+    height: string | null;
+    weight: string | null;
+    photo: string;
 };
